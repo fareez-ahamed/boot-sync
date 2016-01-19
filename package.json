@@ -1,0 +1,17 @@
+{
+  "name": "boot-sync",
+  "version": "1.0.0",
+  "description": "A tool to play with bootstrap variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fareez Ahamed",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
