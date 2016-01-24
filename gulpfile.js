@@ -27,4 +27,10 @@ gulp.task('default', ['serve']);
 gulp.task('make',function(){
 	gulp.src('./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
 		.pipe(gulp.dest('./scss'));
+    gulp.src('./bower_components/jquery/dist/jquery.js')
+        .pipe(gulp.dest('./public'));
+    gulp.src('./node_modules/bootstrap-sass/assets/javascripts/bootstrap.js')
+        .pipe(gulp.dest('./public'));
+    gulp.src('./bower_components/modernizr/modernizr.js')
+        .pipe(gulp.dest('./public'));
 });

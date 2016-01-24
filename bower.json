@@ -1,0 +1,23 @@
+{
+  "name": "boot-sync",
+  "version": "0.1.0",
+  "homepage": "https://github.com/fareez-ahamed/boot-sync",
+  "authors": [
+    "Fareez Ahamed <fareez.ahamed@gmail.com>"
+  ],
+  "description": "A tool to play with bootstrap variables\"",
+  "main": "gulpfile.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.2",
+    "jquery": "~1.11.1"
+  }
+}
