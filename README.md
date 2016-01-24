@@ -1,4 +1,4 @@
-# boot-sync
+# BootSync
 Experiment with bootstrap variables and override defaults come up with your own theme.
 
 ##Setup
